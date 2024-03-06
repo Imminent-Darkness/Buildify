@@ -1,5 +1,5 @@
 import pytest 
-from shopify.image_encoder import scrape, process, encode
+from buildify.image_encoder import scrape, process, encode
 
 def test_scrape_images():
     # GIVEN a URL of a Shopify store

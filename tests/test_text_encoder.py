@@ -1,4 +1,5 @@
-from shopify.text_encoder import analyze, generate, encode
+import pytest
+from buildify.text_encoder import analyze, generate, encode
 
 def test_analyze_text():
     # GIVEN a product description

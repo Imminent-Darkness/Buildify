@@ -1,4 +1,5 @@
-from shopify.fusion import cluster, create, update
+import pytest
+from buildify.fusion import cluster, create, update
 
 def test_cluster_products():
     # GIVEN a list of product features
