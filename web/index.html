@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buildify Store Generator</title>
+</head>
+<body>
+    <h1>Welcome to Buildify Store Generator</h1>
+    <form action="{{ url_for('generate_store') }}" method="post">
+        <label for="niche">Niche:</label>
+        <input type="text" id="niche" name="niche" required>
+        <label for="target_audience">Target Audience:</label>
+        <input type="text" id="target_audience" name="target_audience" required>
+        <button type="submit">Generate Store</button>
+    </form>
+</body>
+</html>
