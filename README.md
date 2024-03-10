@@ -18,17 +18,17 @@ Welcome to Buildify, an innovative Python project that leverages artificial inte
 
 To get started with Buildify, clone the repository and install the required dependencies:
 
-\```bash
+```bash
 git clone https://github.com/your-username/Buildify.git
 cd Buildify
 pip install -r requirements.txt
-\```
+```
 
 ## Usage
 
 After installation, follow the instructions below to set up and run Buildify:
 
-\```bash
+```bash
 # Set up your environment variables
 export SHOPIFY_API_KEY='your_api_key'
 export SHOPIFY_API_SECRET='your_api_secret'
@@ -36,7 +36,7 @@ export SHOPIFY_STORE_URL='your_store_url'
 
 # Run the main script
 python main.py
-\```
+```
 
 # Build and run Docker container
 
